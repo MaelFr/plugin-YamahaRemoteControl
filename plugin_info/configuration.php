@@ -26,7 +26,7 @@ if (!isConnect()) {
     <div class="form-group">
       <label for="yrc-ip" class="col-sm-3 control-label">{{Adresse IP}}</label>
       <div class="col-sm-7">
-        <input id="yrc-ip" class="configKey form-control" data-l1key="param1"/>
+        <input id="yrc-ip" class="configKey form-control" data-l1key="ipAddress"/>
       </div>
     </div>
 </form>
