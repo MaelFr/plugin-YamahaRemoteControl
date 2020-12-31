@@ -1,20 +1,21 @@
 {
-	"id" : "template",
-	"name" : "Template",
-	"description" : "Template servant de base à la création de plugins Jeedom",
+	"id" : "YamahaRemoteControl",
+	"name" : "Yamaha Remote Control",
+	"description" : "Control your Yamaha AVR",
 	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.3.39",
-	"category" : "programming",
+	"author" : ["Maël Bernero"],
+	"require" : "4.0",
+	"category" : "multimedia",
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,
 	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://jeedom.github.io/plugin-template/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-template/#language#/",
+	"changelog" : "https://github.com/MaelFr/plugin-YamahaRemoteControl/blob/master/docs/fr_FR/changelog.md",
+	"documentation" : "https://github.com/MaelFr/plugin-YamahaRemoteControl/blob/master/docs/fr_FR/index.md",
 	"link" : {
 		"forum":"Lien vers le forum",
 		"video" : "Lien vers une video"
 	},
-	"language" : ["fr_FR","en_US","de_DE","sp_SP"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
+	"language" : ["fr_FR"],
+	"compatibility" : ["diy", "v4"],
+	"issue": "https://github.com/MaelFr/plugin-YamahaRemoteControl/issues"
 }
