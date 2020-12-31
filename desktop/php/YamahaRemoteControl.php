@@ -121,9 +121,9 @@ $eqLogics = eqLogic::byType($plugin->getId());
 
 							<legend><i class="fas fa-cogs"></i> {{Paramètres}}</legend>
 							<div class="form-group">
-								<label class="col-sm-3 control-label">{{Paramètre n°1}}</label>
+								<label for="YRC-ipAddress" class="col-sm-3 control-label">{{Adresse IP}}</label>
 								<div class="col-sm-7">
-									<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="param1" placeholder="{{Paramètre n°1}}"/>
+									<input id="YRC-ipAddress" type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="ipAddr" placeholder="{{Adresse IP}}"/>
 								</div>
 							</div>
 							<!-- Champ de saisie du cron d'auto-actualisation + assistant cron -->
