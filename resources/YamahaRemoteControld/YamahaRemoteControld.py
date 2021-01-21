@@ -28,7 +28,7 @@ import json
 try:
 	from jeedom.jeedom import *
 except ImportError:
-	print "Error: importing module jeedom.jeedom"
+	print("Error: importing module jeedom.jeedom")
 	sys.exit(1)
 
 def read_socket():
@@ -40,8 +40,8 @@ def read_socket():
 			logging.error("Invalid apikey from socket : " + str(message))
 			return
 		try:
-			print 'read'
-		except Exception, e:
+			print('read')
+		except Exception as e:
 			logging.error('Send command to demon error : '+str(e))
 
 def listen():
@@ -121,6 +121,6 @@ try:
 	jeedom_utils.write_pid(str(_pidfile))
 	jeedom_socket = jeedom_socket(port=_socket_port,address=_socket_host)
 	listen()
-except Exception,e:
+except Exception as e:
 	logging.error('Fatal error : '+str(e))
 	shutdown()

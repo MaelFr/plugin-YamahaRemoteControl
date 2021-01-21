@@ -7,7 +7,7 @@
 	"require" : "4.0",
 	"category" : "multimedia",
 	"hasDependency" : false,
-	"hasOwnDeamon" : false,
+	"hasOwnDeamon" : true,
 	"maxDependancyInstallTime" : 0,
 	"changelog" : "https://github.com/MaelFr/plugin-YamahaRemoteControl/blob/master/docs/fr_FR/changelog.md",
 	"documentation" : "https://github.com/MaelFr/plugin-YamahaRemoteControl/blob/master/docs/fr_FR/index.md",
